@@ -76,6 +76,13 @@ aside {
   width: 300px;
 }
 
+.article h1,
+h2,
+h3,
+h4 {
+  margin-top: 25px;
+}
+
 .article h1 {
   font-size: 2.25rem;
 }

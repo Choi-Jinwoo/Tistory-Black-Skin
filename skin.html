@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+  <title>[##_page_title_##]</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <s_t3>
+    <header class="header">
+      <a href=[##_blog_link_##]>
+        <h1>
+          [##_title_##]
+        </h1>
+      </a>
+
+      <p>[##_desc_##]</p>
+    </header>
+
+    <div class="aside-wrapper">
+      <aside class="aside">
+        <div class="aside-inner">
+          <h2>인기글</h2>
+
+          <s_rctps_popular_rep>
+            <li>
+              <a href="[##_rctps_rep_link_##]">
+                <p class="popular-title">
+                  [##_rctps_rep_title_##]
+                </p>
+              </a>
+            </li>
+          </s_rctps_popular_rep>
+        </div>
+      </aside>
+    </div>
+
+    <div class="inner-index">
+
+      <div>
+        <s_article_rep>
+          <s_index_article_rep>
+            <li style="list-style: none;">
+
+              <div class="index">
+                <div class="article-list-item">
+                  <a href=[##_article_rep_link_##]>
+                    <s_article_rep_thumbnail>
+                      <div class="article-item-img-wrapper">
+                        <img class=" article-item-thumbnail" src=[##_article_rep_thumbnail_url_##] alt="썸네일">
+                      </div>
+
+                    </s_article_rep_thumbnail>
+                  </a>
+
+                  <div class="article-item-detail">
+                    <div>
+                      <a href=[##_article_rep_link_##]>
+                        <h2 class="article-item-title">
+                          [##_article_rep_title_##]
+                        </h2>
+                      </a>
+
+                      <a href="[##_article_rep_category_link_##]">
+                        <span class="article-item-category">
+                          [##_article_rep_category_##]
+                        </span>
+                      </a>
+                    </div>
+
+                    <span class="article-item-datetime">
+                      [##_article_rep_date_year_##]년 [##_article_rep_date_month_##]월 [##_article_rep_date_day_##]일
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </s_index_article_rep>
+
+          <!-- 상세 글 -->
+          <s_permalink_article_rep>
+            <div class="article">
+              <div class="article-info">
+                <h1 class="article-title">[##_article_rep_title_##]</h1>
+
+                <div class="article-detail">
+                  <a href="[##_article_rep_category_link_##]">
+                    <span class="article-category">[##_article_rep_category_##]</span>
+                  </a>
+
+                  <span class="article-datetime">
+                    [##_article_rep_date_year_##]년 [##_article_rep_date_month_##]월 [##_article_rep_date_day_##]일
+                  </span>
+                </div>
+              </div>
+
+              <div class="article-content">
+                [##_article_rep_desc_##]
+              </div>
+
+              <s_rp>
+                <h4 class="article-comment-title">댓글</h4>
+                <s_rp_input_form>
+                  <div class="article-comment-input-form">
+                    <s_rp_member>
+                      <span class="article-check-private-comment">
+                        <input type="checkbox" name="[##_rp_input_is_secret_##]" />
+                        <label for="secret"> 비밀글 </label>
+                      </span>
+                    </s_rp_member>
+                    <textarea name="[##_rp_input_comment_##]" placeholder="댓글을 입력하세요"></textarea>
+                    <input type="submit" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" />
+                  </div>
+                </s_rp_input_form>
+                <s_rp_container>
+                  <div class="comment-wrapper">
+                    <s_rp_rep>
+                      <li style=" list-style: none;">
+                        <div class="comment">
+                          <img class="comment-profile" src=[##_rp_rep_logo_##] alt="프로필">
+
+                          <div class="comment-content">
+                            <div class="comment-writer-info">
+                              <span>
+                                <span>[##_rp_rep_name_##]</span>
+                                <span class="comment-write-date">[##_rp_rep_date_##]</span>
+                              </span>
+                            </div>
+
+                            <div class="comment-util">
+                              <span onclick="[##_rp_rep_onclick_reply_##]">답글</span>
+                              <span onclick="[##_rp_rep_onclick_delete_##]">수정/삭제</span>
+                            </div>
+                            <p>
+                              [##_rp_rep_desc_##]
+                            </p>
+                          </div>
+
+                          <s_rp2_container>
+                            <s_rp2_rep>
+                      <li style="list-style: none;">
+                        <div class="comment-reply-wrapper">
+                          <div class="comment-reply">
+                            <img class="comment-profile" src=[##_rp_rep_logo_##] alt="프로필">
+
+                            <div class="comment-content">
+                              <div class="comment-writer-info">
+                                <span>
+                                  <span>[##_rp_rep_name_##]</span>
+                                  <span class="comment-write-date">[##_rp_rep_date_##]</span>
+                                </span>
+                              </div>
+
+                              <div class="comment-util">
+                                <span onclick="[##_rp_rep_onclick_delete_##]">수정/삭제</span>
+                              </div>
+
+                              <p>
+                                [##_rp_rep_desc_##]
+                              </p>
+                            </div>
+                          </div>
+                      </li>
+                      </s_rp2_rep>
+                      </s_rp2_container>
+                  </div>
+                  </li>
+                  </s_rp_rep>
+            </div>
+            </s_rp_container>
+            </s_rp>
+          </s_permalink_article_rep>
+        </s_article_rep>
+      </div>
+    </div>
+
+    <s_paging>
+      <div class="paging">
+        <a [##_prev_page_##] class="[##_no_more_prev_##]">이전</a>
+        <span class="numbox">
+          <s_paging_rep>
+            <span>
+              <a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a>
+            </span>
+          </s_paging_rep>
+        </span>
+        <a [##_next_page_##] class="[##_no_more_next_##]">다음</a>
+      </div>
+    </s_paging>
+
+  </s_t3>
+</body>
+
+<script>
+  window.onscroll = e => {
+    if (window.scrollY > 200) {
+      const aside = document.querySelector('.aside-inner');
+      aside.className = 'aside-inner-fixed';
+    } else {
+      const aside = document.querySelector('.aside-inner-fixed');
+      aside.className = 'aside-inner';
+    }
+  }
+</script>
+
+</html>

@@ -99,7 +99,7 @@ aside {
 .article-content h2,
 .article-content h3,
 .article-content h4 {
-  display: inline-block;
+  display: table;
   padding: 2px 5px;
   color: #fff;
   background-color: #000;

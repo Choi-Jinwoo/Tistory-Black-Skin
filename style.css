@@ -152,7 +152,6 @@ code {
 
 .article-item-thumbnail:hover {
   transform: scale(1.2);
-  transition: transform 0.3s;
   width: 150px;
   height: 150px;
 }
@@ -165,6 +164,7 @@ code {
   margin-left: 20px;
   padding: 5px 0;
   height: 150px;
+  transition: transform 0.3s;
 }
 
 .article-item-title:hover {

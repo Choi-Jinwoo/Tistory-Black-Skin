@@ -148,6 +148,7 @@ code {
   height: 150px;
   cursor: pointer;
   object-fit: cover;
+  transition: transform 0.3s;
 }
 
 .article-item-thumbnail:hover {
@@ -164,7 +165,6 @@ code {
   margin-left: 20px;
   padding: 5px 0;
   height: 150px;
-  transition: transform 0.3s;
 }
 
 .article-item-title:hover {

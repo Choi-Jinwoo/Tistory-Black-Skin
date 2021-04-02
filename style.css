@@ -152,7 +152,7 @@ code {
 }
 
 .article-item-thumbnail:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   width: 150px;
   height: 150px;
 }

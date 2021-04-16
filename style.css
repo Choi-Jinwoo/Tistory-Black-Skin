@@ -26,7 +26,8 @@ li {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-weight: 700;
   margin: 10px 0;
 }
@@ -92,13 +93,18 @@ aside {
   font-size: 1.5rem;
 }
 
+.article h5 {
+  font-size: 1.25rem;
+}
+
 .article h2[data-ke-size="size26"] {
   font-size: 36px;
 }
 
 .article-content h2,
 .article-content h3,
-.article-content h4 {
+.article-content h4,
+.article-content h5 {
   display: table;
   padding: 2px 5px;
   color: #fff;

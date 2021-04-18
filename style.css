@@ -97,6 +97,10 @@ aside {
   font-size: 1.25rem;
 }
 
+.article p {
+  font-size: 1.1rem;
+}
+
 .article h2[data-ke-size="size26"] {
   font-size: 36px;
 }

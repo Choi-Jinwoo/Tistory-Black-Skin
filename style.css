@@ -44,6 +44,10 @@ h5 {
   }
 }
 
+.aside-inner li {
+  list-style: none;
+}
+
 .aside-inner-fixed {
   position: fixed;
   left: calc(75% + 20px);

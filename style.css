@@ -79,7 +79,7 @@ aside {
 .article h4,
 .article h5 {
   font-weight: 700;
-  margin: 20px 0px 10px 0px;
+  margin: 40px 0px 10px 0px;
 }
 
 .article h1 {
@@ -104,7 +104,11 @@ aside {
 
 .article p {
   font-size: 1rem;
-  line-height: 1.75rem;
+  line-height: 1.25rem;
+}
+
+.article br {
+  line-height: 0.75rem;
 }
 
 .article a {
@@ -246,10 +250,15 @@ code {
 }
 
 .article blockquote {
-  margin: 20px 0;
+  margin: 25px 0;
   background-color: #fefefe;
   border-left: 6px solid #666;
   padding: 10px 20px;
+}
+
+.article hr {
+  border: 1px solid #e1e8ed;
+  margin: 20px 0;
 }
 
 .article blockquote h1,

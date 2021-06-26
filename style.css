@@ -6,26 +6,18 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans KR", sans-serif;
+  color: #10161a;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #10161a;
   cursor: pointer;
 }
 
 a:visited {
   text-decoration: none;
-  color: #000;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 700;
-  margin: 10px 0;
+  color: #10161a;
 }
 
 .aside-wrapper {
@@ -67,9 +59,9 @@ header {
   justify-content: center;
   height: 200px;
   background-color: #263747;
-  color: #fff;
 }
 
+header p,
 header h1 {
   color: #fff;
 }
@@ -79,6 +71,15 @@ aside {
   top: 100px;
   right: -320px;
   width: 300px;
+}
+
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5 {
+  font-weight: 700;
+  margin: 20px 0px 10px 0px;
 }
 
 .article h1 {
@@ -102,28 +103,17 @@ aside {
 }
 
 .article p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
-.article h2[data-ke-size="size26"] {
-  font-size: 36px;
+.article a {
+  text-decoration: underline;
+  color: #0e5a8a;
 }
 
-.article-content h2,
-.article-content h3,
-.article-content h4 {
-  display: table;
-  padding: 2px 5px;
-  color: #fff;
-  background-color: #000;
-  margin-top: 30px;
-}
-
-.article-content h5 {
-  display: table;
-  padding: 2px 0;
-  margin-top: 30px;
-  color: #000;
+.article img {
+  margin: 20px 0 !important;
 }
 
 pre {
@@ -133,14 +123,19 @@ pre {
 
 pre > code {
   background-color: transparent;
-  padding: 16px;
+  padding: 0.75rem !important;
+  font-weight: normal;
+  font-size: 0.95rem;
 }
 
 code {
   font-family: "Ubuntu Mono", monospace;
   background-color: #f2f2f2;
+  line-height: 1rem;
   padding: 5px;
   display: inline-block;
+  color: #c23030;
+  font-weight: bold;
 }
 
 .index {
@@ -255,6 +250,14 @@ code {
   background-color: #fefefe;
   border-left: 6px solid #666;
   padding: 10px 20px;
+}
+
+.article blockquote h1,
+.article blockquote h2,
+.article blockquote h3,
+.article blockquote h4,
+.article blockquote h5 {
+  margin: 0px;
 }
 
 .article-comment-title {
@@ -398,7 +401,7 @@ code {
 }
 
 .category > h2 {
-  color: #000;
+  color: #10161a;
 }
 
 .article-admin > a {
